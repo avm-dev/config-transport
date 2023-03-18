@@ -1,0 +1,28 @@
+.second-box {
+    display: flex;
+  }
+  
+  .second-box > div {
+    margin-right: 20px;
+  }
+  
+  .second-box h3 {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .second-box input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  .second-box label {
+    display: inline-block;
+    margin-right: 20px;
+  }
+
+  .transport-button {
+    position: fixed;
+    bottom: 200px;
+    right: 100px;
+  }
+  

@@ -1,0 +1,22 @@
+.first-box {
+    display: flex;
+  }
+  
+  .first-box > div {
+    margin-right: 20px;
+  }
+  
+  .first-box h3 {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .first-box input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  .first-box label {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
