@@ -14,7 +14,7 @@ export const SecondBox = ({ exportedItems }) => {
     }, {});
 
     const handleSubmit = async () => {
-        await axios.post('url', exportedItems);
+        await axios.post('https://hack_inno-cheerful-springhare-yw.cfapps.us10-001.hana.ondemand.com/migrate/all', exportedItems);
     }
   
     return (

@@ -19,13 +19,13 @@ const App = () => {
     setExportedItems(selectedItems);
   };
 
-  useEffect(() => {axios.get('url')
-  .then((resp) => setData(resp.data))}, [])
+  useEffect(() => {axios.get('https://hack_inno-cheerful-springhare-yw.cfapps.us10-001.hana.ondemand.com/get/all')
+  .then((resp) => setData(resp.data.data))}, [])
 
   return (
     <div className="container">
       <div className="box"> {
-        <FirstBox data = {items} handleExport={handleExport} />
+        <FirstBox data = {data} handleExport={handleExport} />
       }
       </div>
       <div className="box">
